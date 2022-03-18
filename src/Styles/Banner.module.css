@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.container {
+  border: 2px solid green;
+  height: 40vh;
+  width: 100%;
+}
+
+.banner {
+  border: 2px solid red;
+  height: 86%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  height: 12%;
+  width: 100%;
+  background-color: grey;
+}
+
+.aboutMe {
+  border: none;
+  margin-right: 20%;
+  font-size: 100%;
+  font-weight: bold;
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Playfair Display', serif;
+  background-color: inherit;
+}
+.aboutMe:hover {
+  border: none;
+  margin-right: 20%;
+  color: black;
+  height: fit-content;
+  width: fit-content;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.contactInfo {
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  background-color: inherit;
+}
+.contactInfo:hover {
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  color: rgb(16, 16, 248);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.resume {
+  border: none;
+  margin-left: 20%;
+  height: fit-content;
+  width: fit-content;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  background-color: inherit;
+}
+.resume:hover {
+  border: none;
+  margin-left: 20%;
+  height: fit-content;
+  width: fit-content;
+  color: rgb(16, 16, 248);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.projects {
+  border: none;
+  margin-left: 20%;
+  height: fit-content;
+  width: fit-content;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  background-color: inherit;
+}
+.projects:hover {
+  border: none;
+  margin-left: 20%;
+  height: fit-content;
+  width: fit-content;
+  color: rgb(16, 16, 248);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes glow {
+  from {
+    font-size: 100%;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
+  }
+  to {
+    font-size: 110%;
+    text-shadow: 0 0 20px #fff, 0 0 30px #21fb04, 0 0 40px #21fb04, 0 0 50px #21fb04, 0 0 60px #21fb04, 0 0 70px #21fb04, 0 0 80px #21fb04;
+  }
+}
