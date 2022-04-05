@@ -5,17 +5,15 @@ const Banner = () => {
 	return (
 		<>
 			<div className={styles.container}>
-        <div className={styles.banner}>
-
-        </div>
-        <div className={styles.nav}>
-          <button className={styles.aboutMe}>About Me</button>
-          <button className={styles.contactInfo}>Contact Info</button>
-          <button className={styles.resume}>Resume</button>
-          <button className={styles.projects}>Projects</button>
-
-        </div>
-      </div>
+				<div className={styles.navContainer}>
+					<div className={styles.nav}>
+						<button className={styles.aboutMe}>About Me</button>
+						<button className={styles.contactInfo}>Contact Info</button>
+						<button className={styles.resume}>Resume</button>
+						<button className={styles.projects}>Projects</button>
+					</div>
+				</div>
+			</div>
 		</>
 	)
 }

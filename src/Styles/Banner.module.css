@@ -1,109 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
 .container {
-  border: 2px solid green;
-  height: 40vh;
+  /* border: 2px solid green; */
+  height: 10vh;
   width: 100%;
+  background-color: rgb(0, 0, 0);
 }
 
-.banner {
+/* .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid red;
   height: 86%;
+  width: 100%;
+} */
+
+.navContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 2px solid rgb(255, 0, 0); */
+  height: 100%;
   width: 100%;
 }
 
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  border: 2px solid blue;
-  height: 12%;
-  width: 100%;
-  background-color: grey;
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  background-color: inherit;
+  color: white;
 }
 
 .aboutMe {
   border: none;
-  margin-right: 20%;
-  font-size: 100%;
+  font-size: calc(5px + 2vmin);
   font-weight: bold;
   height: fit-content;
   width: fit-content;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
   background-color: inherit;
+  white-space: nowrap;
+  color: white;
 }
 .aboutMe:hover {
   border: none;
-  margin-right: 20%;
-  color: black;
+  color: blue;
   height: fit-content;
   width: fit-content;
-  animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
 }
 
 .contactInfo {
   border: none;
   height: fit-content;
   width: fit-content;
-  font-size: 100%;
+  font-size: calc(5px + 2vmin);
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   background-color: inherit;
+  white-space: nowrap;
+  color: white;
 }
 .contactInfo:hover {
   border: none;
   height: fit-content;
   width: fit-content;
-  color: rgb(16, 16, 248);
-  animation: glow 1s ease-in-out infinite alternate;
+  color: blue;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
 }
 
 .resume {
   border: none;
-  margin-left: 20%;
   height: fit-content;
   width: fit-content;
-  font-size: 100%;
+  font-size: calc(5px + 2vmin);
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   background-color: inherit;
+  color: white;
 }
 .resume:hover {
   border: none;
-  margin-left: 20%;
   height: fit-content;
   width: fit-content;
-  color: rgb(16, 16, 248);
-  animation: glow 1s ease-in-out infinite alternate;
+  color: blue;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
 }
 .projects {
   border: none;
-  margin-left: 20%;
   height: fit-content;
   width: fit-content;
-  font-size: 100%;
+  font-size: calc(5px + 2vmin);
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   background-color: inherit;
+  color: white;
 }
 .projects:hover {
   border: none;
-  margin-left: 20%;
   height: fit-content;
   width: fit-content;
-  color: rgb(16, 16, 248);
-  animation: glow 1s ease-in-out infinite alternate;
+  color: blue;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
 }
 
-
-
-@keyframes glow {
-  from {
-    font-size: 100%;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
-  }
-  to {
-    font-size: 110%;
-    text-shadow: 0 0 20px #fff, 0 0 30px #21fb04, 0 0 40px #21fb04, 0 0 50px #21fb04, 0 0 60px #21fb04, 0 0 70px #21fb04, 0 0 80px #21fb04;
-  }
-}
+/* .picture {
+  border: 2px solid blue;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(https://i.imgur.com/PdueY7e.jpg);
+  background-size: 100% 100%;
+  border-radius: 25%;
+  image-rendering: -webkit-optimize-contrast;
+} */

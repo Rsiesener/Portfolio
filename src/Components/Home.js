@@ -1,11 +1,17 @@
 import React from 'react'
+import styles from '../Styles/Home.module.css'
+import About from './About'
+import Contact from './Contact'
+import Projects from './Projects'
 
 const Home = () => {
 
   return (
     <>
-      <div>
-        sup homie, im a coder now
+      <div className={styles.body}>
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </>
   )

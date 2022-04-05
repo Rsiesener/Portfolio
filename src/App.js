@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
+import Banner from './Components/Banner';
 
 import Home from './Components/Home';
-import Banner from './Components/Banner';
 
 function App() {
   return (
