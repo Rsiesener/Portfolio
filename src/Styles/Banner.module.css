@@ -1,28 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
 .container {
+  display: flex;
+  justify-content: flex-end;
   /* border: 2px solid green; */
   height: 10vh;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: inherit;
+  position: fixed;
 }
-
-/* .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid red;
-  height: 86%;
-  width: 100%;
-} */
 
 .navContainer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   /* border: 2px solid rgb(255, 0, 0); */
-  height: 100%;
-  width: 100%;
+  height: 95%;
+  width: 15%;
 }
 
 .nav {
@@ -37,85 +30,53 @@
   color: white;
 }
 
-.aboutMe {
+.hireMe{
   border: none;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(15px + 2vmin);
   font-weight: bold;
   height: fit-content;
   width: fit-content;
-  /* font-family: 'Playfair Display', serif; */
   background-color: inherit;
+  border-radius: 10px;
   white-space: nowrap;
-  color: white;
+  color: gold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  position: fixed;
+  margin-right: 10%;
+  text-shadow: 0 0 10px rgb(255, 215, 0), 0 0 20px rgb(255, 215, 0), 0 0 30px rgb(255, 215, 0), 0 0 40px rgb(253, 215, 0), 0 0 50px rgb(255, 215, 0), 0 0 60px rgb(255, 215, 0), 0 0 70px rgb(255, 215, 0);
 }
-.aboutMe:hover {
-  border: none;
-  color: blue;
-  height: fit-content;
+.hireMe:hover {
+  border-radius: 10px;
+  background-color: inherit;
+  font-size: calc(20px + 2vmin);
+  height: 10%;
   width: fit-content;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
 }
 
-.contactInfo {
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  font-size: calc(5px + 2vmin);
-  font-weight: bold;
-  font-family: 'Playfair Display', serif;
-  background-color: inherit;
-  white-space: nowrap;
-  color: white;
+@media only screen and (min-width: 576px) {
+  .navContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
-.contactInfo:hover {
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  color: blue;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
+@media only screen and (min-width: 768px) {
+  .hireMe {
+    font-size: calc(20px + 2vmin);
+  }
+  
+  .hireMe:hover {
+    font-size: calc(25px + 2vmin);
+  }
+  
 }
 
-.resume {
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  font-size: calc(5px + 2vmin);
-  font-weight: bold;
-  font-family: 'Playfair Display', serif;
-  background-color: inherit;
-  color: white;
-}
-.resume:hover {
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  color: blue;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
-}
-.projects {
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  font-size: calc(5px + 2vmin);
-  font-weight: bold;
-  font-family: 'Playfair Display', serif;
-  background-color: inherit;
-  color: white;
-}
-.projects:hover {
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  color: blue;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
-}
+@media only screen and (min-width: 992px) {
+  .hireMe {
+    font-size: calc(20px + 2vmin);
+  }
 
-/* .picture {
-  border: 2px solid blue;
-  height: 30vh;
-  width: 30vh;
-  background-image: url(https://i.imgur.com/PdueY7e.jpg);
-  background-size: 100% 100%;
-  border-radius: 25%;
-  image-rendering: -webkit-optimize-contrast;
-} */
+  .hireMe:hover {
+    font-size: calc(25px + 2vmin);
+  }
+}

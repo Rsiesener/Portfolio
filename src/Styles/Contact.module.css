@@ -1,0 +1,42 @@
+.container {
+  width: 95%;
+  /* border: 2px solid blue; */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  text-decoration: none;
+}
+
+.resume:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+  width: 90%;
+
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+  width: 80%;
+
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+  width: 70%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+}
