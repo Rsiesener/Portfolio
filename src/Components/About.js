@@ -13,7 +13,8 @@ const About = () => {
 						Full-stack <br></br> Software <br></br> Developer
 					</h1>
 					<p>
-						changed
+						Hi, my name is Ryan and I am just putting some words in here so that
+						I can see what all of this looks like on my page.
 					</p>
 				</div>
 			</div>
