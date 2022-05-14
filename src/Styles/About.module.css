@@ -17,9 +17,9 @@
   /* border: 2px solid blue; */
   height: 30vh;
   width: 30vh;
-  background-image: url(https://i.imgur.com/PdueY7e.jpg);
+  background-image: url(../IMG_0529-modified.png);
   background-size: 100% 100%;
-  border-radius: 25%;
+  border-radius: 100%;
   margin-top: 10%;
   image-rendering: -webkit-optimize-contrast;
 }
