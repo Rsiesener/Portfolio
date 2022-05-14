@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Styles/Contact.module.css'
-import resume from '../../src/RyanSiesenerResume1.docx'
+import resume from '../../src/RyanSiesenerResume-3-2022.pdf'
 
 const Contact = () => {
 	return (
