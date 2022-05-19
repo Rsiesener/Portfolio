@@ -94,13 +94,21 @@
   justify-content: center;
   align-items: center;
   width: 25%;
-  /* background-image: url('../Screen\ Shot\ 2022-05-19\ at\ 10.52.01\ AM.png'); */
+  background-image: url('../Screen\ Shot\ 2022-05-19\ at\ 3.50.53\ PM.png');
   background-size: 100% 100%;
-  border: 2px solid blue;
+  border: 2px solid white;
   color: white;
   font-size: calc(5px + 2vmin);
   text-decoration: none;
   border-radius: 10px;
+}
+
+
+.picFour:hover {
+  color: blue;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
+
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(16, 16, 248), 0 0 40px rgb(16, 16, 248), 0 0 50px rgb(16, 16, 248), 0 0 60px rgb(16, 16, 248), 0 0 70px rgb(16, 16, 248);
 }
 
 .header {

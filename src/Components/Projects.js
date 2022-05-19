@@ -27,7 +27,11 @@ const Projects = () => {
 						className={styles.picThree}>
 						Tic-Tac-Toe
 					</a>
-					<div className={styles.picFour}>Project four</div>
+					<a
+						href='https://stupendous-parfait-94b0b8.netlify.app'
+						className={styles.picFour}>
+						Project four
+					</a>
 				</div>
 			</div>
 		</>
