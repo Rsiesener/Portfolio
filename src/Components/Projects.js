@@ -30,7 +30,7 @@ const Projects = () => {
 					<a
 						href='https://stupendous-parfait-94b0b8.netlify.app'
 						className={styles.picFour}>
-						Project four
+						Drum Kit
 					</a>
 				</div>
 			</div>
