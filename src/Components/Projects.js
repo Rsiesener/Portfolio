@@ -9,12 +9,25 @@ const Projects = () => {
 					<h1>Projects</h1>
 				</div>
 				<div className={styles.rowOne}>
-					<a href='https://musicflix.github.io/project-frontend/' className={styles.picOne}>Netflix Clone</a>
-					<div>Project two</div>
+					<a
+						href='https://musicflix.github.io/project-frontend/'
+						className={styles.picOne}>
+						Netflix Clone
+					</a>
+					<a
+						href='https://chipper-pasca-37df1c.netlify.app'
+						className={styles.picTwo}>
+						Dice Game
+					</a>
 				</div>
+
 				<div className={styles.rowTwo}>
-					<div>Project three</div>
-					<div>Project four</div>
+					<a
+						href='https://rsiesener.github.io/Tic-Tac-Toe-client/'
+						className={styles.picThree}>
+						Tic-Tac-Toe
+					</a>
+					<div className={styles.picFour}>Project four</div>
 				</div>
 			</div>
 		</>
